@@ -106,7 +106,7 @@ public class JobData {
 
                 String a = column.getValue().toLowerCase();
 
-                if (a.contains(value)) {
+                if (a.contains(value.toLowerCase())) {
                     if(!jobs.contains(value)){
                         jobs.add(row);
                     }
